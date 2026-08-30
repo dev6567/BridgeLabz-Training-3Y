@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>URI Encoding Example</title>
+</head>
+<body>
+<h1>URI Encoding Demonstration</h1>
+<p>Original URL (with a space, which is not valid in a URI): https://example.com/search?query=HTML &amp; CSS</p>
+
+<!-- The space is encoded as %20, and the & inside the value would need encoding too, but here it separates query params correctly -->
+<p>
+    Correctly encoded link:
+    <a href="https://example.com/search?query=HTML%20%26%20CSS">https://example.com/search?query=HTML%20%26%20CSS</a>
+</p>
+</body>
+</html>
