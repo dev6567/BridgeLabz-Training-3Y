@@ -1,0 +1,37 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.pricing-card {
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s;
+    animation: fadeIn 1s ease-in;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+}
+
+.featured {
+    background-color: #2563eb;
+    color: white;
+    transform: scale(1.1);
+}
+
+@media (max-width: 750px) {
+    .pricing-container {
+        flex-direction: column;
+    }
+}

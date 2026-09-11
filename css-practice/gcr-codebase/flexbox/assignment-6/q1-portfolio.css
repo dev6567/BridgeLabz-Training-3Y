@@ -1,0 +1,45 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2563eb;
+    color: white;
+}
+
+.site-header nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.about-me, .image-section {
+    flex: 1;
+}
+
+.image-section img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e3a8a;
+    color: white;
+}
+
+/* Stack vertically below 700px */
+@media (max-width: 700px) {
+    .main-content {
+        flex-direction: column;
+    }
+}
