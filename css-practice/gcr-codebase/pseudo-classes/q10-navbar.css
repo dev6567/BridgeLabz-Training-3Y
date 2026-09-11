@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #1e3a8a;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #2563eb;
+    border-color: white;
+}
+
+.navbar a.active {
+    border-bottom: 3px solid orange;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #f3f4f6;
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,46 @@
+/* Attribute selector: targets input with type="text" */
+input[type="text"] {
+    border: 2px solid #2563eb;
+}
+
+/* Attribute selector: targets links starting with https */
+a[href^="https"] {
+    color: green;
+}
+
+/* Pseudo-class: hover */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pseudo-class: focus */
+input:focus {
+    outline: 2px solid orange;
+}
+
+/* Pseudo-class: nth-child, targets every 2nd list item */
+.item-list li:nth-child(2n) {
+    background-color: #f3f4f6;
+}
+
+/* Pseudo-element: before, adds content before each list item */
+.item-list li::before {
+    content: "\2192 ";
+    color: #2563eb;
+}
+
+/* Pseudo-element: after */
+.item-list li::after {
+    content: " \2713";
+    color: green;
+}
+
+/* Child combinator: only direct child <p> of .parent */
+.parent > p {
+    font-weight: bold;
+}
+
+/* Descendant combinator: any <p> inside .parent, at any depth */
+.parent p {
+    color: #444;
+}

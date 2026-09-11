@@ -1,0 +1,26 @@
+.transform-row {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.transform-item {
+    text-align: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #2563eb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+
+.box-rotate:hover { transform: rotate(45deg); }
+.box-scale:hover { transform: scale(1.3); }
+.box-translate:hover { transform: translateY(-20px); }
+.box-skew:hover { transform: skew(20deg); }

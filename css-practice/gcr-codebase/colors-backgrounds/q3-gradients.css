@@ -1,0 +1,27 @@
+.fixed-header, .fixed-footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.linear-section {
+    height: 50vh;
+    background: linear-gradient(to right, #2563eb, #9333ea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+}
+
+.radial-section {
+    height: 50vh;
+    background: radial-gradient(circle, #16a34a, #052e16);
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2em;
+}

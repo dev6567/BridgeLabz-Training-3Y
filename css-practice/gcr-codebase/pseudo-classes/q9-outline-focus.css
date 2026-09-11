@@ -1,0 +1,29 @@
+body {
+    max-width: 400px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.1);
+    outline: 2px solid transparent;
+    outline-offset: 3px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    outline: 2px solid #2563eb;
+    outline-offset: 3px;
+}
+
+input[type="submit"] {
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    border: none;
+}

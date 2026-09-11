@@ -1,0 +1,38 @@
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.serif-heading {
+    font-family: Georgia, serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.intro-para {
+    font-family: Georgia, serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.intro-para::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.sans-para {
+    font-family: Arial, sans-serif;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+.sans-para::first-line {
+    font-weight: bold;
+}
+
+strong { color: #1e3a8a; }
+em { color: #9333ea; }
+mark { background-color: #fde68a; }
