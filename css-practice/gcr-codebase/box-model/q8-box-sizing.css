@@ -1,0 +1,34 @@
+.compare-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 250px;
+    padding: 20px;
+    border: 6px solid;
+    color: white;
+    text-align: center;
+}
+
+.default-box {
+    box-sizing: content-box;
+    background-color: #dc2626;
+    border-color: #7f1d1d;
+}
+
+.border-box {
+    box-sizing: border-box;
+    background-color: #16a34a;
+    border-color: #14532d;
+}
+
+@media (max-width: 600px) {
+    .compare-row {
+        flex-direction: column;
+        align-items: center;
+    }
+}

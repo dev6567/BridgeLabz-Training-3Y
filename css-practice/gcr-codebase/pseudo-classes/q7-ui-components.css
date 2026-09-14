@@ -1,0 +1,42 @@
+body {
+    background: linear-gradient(to right, #dbeafe, #ede9fe);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ui-card {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.search-bar, .ui-dropdown {
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.search-bar:focus, .ui-dropdown:focus {
+    outline: 2px solid #2563eb;
+}
+
+.ui-btn {
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.ui-btn:hover {
+    background-color: #1d4ed8;
+}

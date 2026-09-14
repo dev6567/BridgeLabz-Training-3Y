@@ -1,0 +1,41 @@
+/* Element selector: targets all <p> tags */
+p {
+    margin: 10px 0;
+}
+
+/* Class selector */
+.highlight {
+    background-color: #fde68a;
+}
+
+/* ID selector */
+#special {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* Child combinator: direct <li> children of .parent-list */
+.parent-list > li {
+    font-weight: bold;
+}
+
+/* Descendant combinator: any <li> inside .parent-list, any depth */
+.parent-list li {
+    padding: 3px 0;
+}
+
+/* Attribute selector: links pointing to https */
+a[href^="https"] {
+    color: green;
+}
+
+header, footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e3a8a;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
