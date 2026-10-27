@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+/* Two images side by side on desktop */
+.compare {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.compare figure {
+    flex: 1;
+    max-width: 400px;
+    margin: 0;
+    text-align: center;
+}
+
+.compare img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: filter 0.5s ease;
+}
+
+/* Filter on the right-hand image; fades away on hover */
+.compare .filtered {
+    filter: brightness(1.4) contrast(1.5);
+}
+
+.compare .filtered:hover {
+    filter: none;
+}
+
+/* Below 700px: stack vertically (captions stay under each image) */
+@media (max-width: 700px) {
+    .compare {
+        flex-direction: column;
+        align-items: center;
+    }
+}
