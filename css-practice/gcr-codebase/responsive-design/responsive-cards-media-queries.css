@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+/* Desktop: 4 cards per row (gap of 20px accounted for in the width) */
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    flex: 0 0 calc(25% - 15px);
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.card:hover {
+    background-color: #bfdbfe;
+}
+
+/* Tablet: 2 columns */
+@media (max-width: 900px) {
+    .card {
+        flex: 0 0 calc(50% - 10px);
+    }
+}
+
+/* Mobile: 1 column */
+@media (max-width: 600px) {
+    .card {
+        flex: 0 0 100%;
+    }
+}

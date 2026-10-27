@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Logo left, navigation right */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.site-header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+/* Three feature boxes side by side */
+.features {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+.feature {
+    flex: 1;
+    background-color: #f3f4f6;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.site-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e3a8a;
+    color: white;
+}
+
+/* Below 750px: stack feature boxes */
+@media (max-width: 750px) {
+    .features {
+        flex-direction: column;
+    }
+}
