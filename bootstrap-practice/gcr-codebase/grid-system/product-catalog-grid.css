@@ -1,0 +1,14 @@
+/* shadow-sm is the resting shadow; on hover we lift the card with a bigger shadow and a smooth transition */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.2) !important;
+}
+
+.product-card img {
+    height: 180px;
+    object-fit: cover;
+}
