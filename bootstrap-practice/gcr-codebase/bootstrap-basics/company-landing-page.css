@@ -1,0 +1,8 @@
+/* Custom styles that sit on top of Bootstrap */
+.hero {
+    background: linear-gradient(135deg, #1e3a8a, #7c3aed);
+}
+
+.navbar-brand {
+    letter-spacing: 1px;
+}

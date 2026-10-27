@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NovaTech - Company Landing Page</title>
+    <!-- Bootstrap 5 CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="company-landing-page.css">
+</head>
+<body>
+    <!-- Full-width header with navbar: navbar-expand-lg collapses the menu below the lg breakpoint -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">NovaTech</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section: py-5 adds vertical padding, display-3 makes a large heading -->
+        <section class="hero text-center text-white py-5">
+            <div class="container py-5">
+                <h1 class="display-3 fw-bold">Build Faster. Launch Smarter.</h1>
+                <p class="lead mb-4">NovaTech helps startups turn ideas into products in weeks, not months.</p>
+                <a href="#features" class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </section>
+
+        <!-- Grid: container > row > col; col-md-4 gives three equal columns from the md breakpoint up -->
+        <section id="features" class="py-5">
+            <div class="container">
+                <div class="row text-center g-4">
+                    <div class="col-md-4">
+                        <h2 class="h4">Rapid Prototyping</h2>
+                        <p>Go from sketch to clickable prototype in days.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="h4">Scalable Cloud</h2>
+                        <p>Infrastructure that grows with your users.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="h4">Friendly Support</h2>
+                        <p>A real team that answers within hours.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 NovaTech. hello@novatech.example</p>
+    </footer>
+
+    <!-- Bootstrap JS bundle is required for the navbar toggle button -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

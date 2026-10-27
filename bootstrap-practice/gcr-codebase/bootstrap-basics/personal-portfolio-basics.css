@@ -1,0 +1,7 @@
+/* Fixed size and cover-fit so any photo stays a neat circle */
+.profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border: 4px solid #dee2e6;
+}
