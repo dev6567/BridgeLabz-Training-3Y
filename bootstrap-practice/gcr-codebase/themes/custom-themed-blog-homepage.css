@@ -1,0 +1,37 @@
+/* Theme variables: override Bootstrap's CSS variables to personalise the look */
+:root {
+    --bs-primary: #7c3aed;
+    --bs-primary-rgb: 124, 58, 237;
+    --bs-font-sans-serif: 'Poppins', system-ui, sans-serif;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+}
+
+/* Bootstrap 5.3 buttons use their own --bs-btn-* variables, so the theme colour is applied here too */
+.btn-primary {
+    --bs-btn-bg: #7c3aed;
+    --bs-btn-border-color: #7c3aed;
+    --bs-btn-hover-bg: #6d28d9;
+    --bs-btn-hover-border-color: #6d28d9;
+    --bs-btn-active-bg: #5b21b6;
+    --bs-btn-active-border-color: #5b21b6;
+}
+
+/* Headings and cards pick up the theme colour */
+h1, h2, h3, .card-title {
+    font-weight: 700;
+}
+
+.card-title {
+    color: var(--bs-primary);
+}
+
+.card {
+    border: 0;
+    border-top: 4px solid var(--bs-primary);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+}
+
+.theme-header,
+.theme-footer {
+    background-color: var(--bs-primary);
+}
