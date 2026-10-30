@@ -1,0 +1,6 @@
+isPermanent = true -> Total salary: 45000
+Global bonus after call: 5000
+isPermanent = false -> Total salary: 40000
+Global bonus after call: 5000
+typeof salary outside function: undefined
+typeof isPermanent outside function: undefined

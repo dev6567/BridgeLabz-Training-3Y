@@ -1,0 +1,7 @@
+===== Performance Summary =====
+Scores         : 35, 48, 92, 35, 57, 80, 68, 71
+Results        : Fail, Fail, Pass, Fail, Pass, Pass, Pass, Pass
+Highest score  : 92
+Lowest score   : 35
+Average score  : 60.75
+Students passed: 5 out of 8

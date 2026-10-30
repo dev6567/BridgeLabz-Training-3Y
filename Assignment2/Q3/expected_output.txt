@@ -1,0 +1,9 @@
+
+===== Math Dashboard =====
+Number           : 16.75
+Rounded value    : 17
+Square root      : 4.09
+Power (x^3)      : 4699.42
+Random (10-50)   : 29
+==========================
+

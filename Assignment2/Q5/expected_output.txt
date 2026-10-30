@@ -1,0 +1,5 @@
+Test 1: door=true, window=true, alarm=true, owner=true -> Secure
+Test 2: door=false, window=true, alarm=true, owner=true -> Unsafe
+Test 3: door=true, window=false, alarm=true, owner=true -> Unsafe
+Test 4: door=true, window=true, alarm=false, owner=true -> Unsafe
+Test 5: door=true, window=true, alarm=true, owner=false -> Unsafe

@@ -1,0 +1,4 @@
+HR (72): Average
+Finance (88): Good
+Tech (95): Excellent
+Support (63): Average

@@ -1,0 +1,20 @@
+// Q9: Odd-Even Number Analyzer
+const numbers = [];
+for (let i = 1; i <= 30; i++) {
+  numbers.push(i);                       // build array of 1 to 30
+}
+
+const results = [];
+for (const num of numbers) {
+  if (num % 3 === 0 && num % 5 === 0) {
+    results.push("FizzBuzz");
+  } else if (num % 2 === 0) {
+    results.push("Even");
+  } else {
+    results.push("Odd");
+  }
+}
+
+// Show each number with its classification
+numbers.forEach((num, i) => console.log(`${num}: ${results[i]}`));
+console.log("Results array:", results);

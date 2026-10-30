@@ -1,0 +1,9 @@
+Click: +
+Count is now: 1
+Click: +
+Count is now: 2
+Click: +
+Count is now: 3
+Click: -
+Count is now: 2
+Final count: 2
