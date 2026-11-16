@@ -1,0 +1,35 @@
+--- Low stock products (stock < 10) ---
+┌─────────┬────┬────────────┬───────────────┬───────┐
+│ (index) │ id │ name       │ category      │ stock │
+├─────────┼────┼────────────┼───────────────┼───────┤
+│ 0       │ 1  │ 'Laptop'   │ 'Electronics' │ 5     │
+│ 1       │ 3  │ 'T-Shirt'  │ 'Fashion'     │ 3     │
+│ 2       │ 6  │ 'Pen Pack' │ 'Stationery'  │ 8     │
+└─────────┴────┴────────────┴───────────────┴───────┘
+--- Sorted by price (low to high) ---
+┌─────────┬──────────────┬───────┐
+│ (index) │ name         │ price │
+├─────────┼──────────────┼───────┤
+│ 0       │ 'Pen Pack'   │ 50    │
+│ 1       │ 'Notebook'   │ 100   │
+│ 2       │ 'T-Shirt'    │ 800   │
+│ 3       │ 'Headphones' │ 1500  │
+│ 4       │ 'Jeans'      │ 2000  │
+│ 5       │ 'Blender'    │ 3000  │
+│ 6       │ 'Laptop'     │ 55000 │
+└─────────┴──────────────┴───────┘
+--- Sorted by price (high to low), first 3 ---
+┌─────────┬───────────┬───────┐
+│ (index) │ name      │ price │
+├─────────┼───────────┼───────┤
+│ 0       │ 'Laptop'  │ 55000 │
+│ 1       │ 'Blender' │ 3000  │
+│ 2       │ 'Jeans'   │ 2000  │
+└─────────┴───────────┴───────┘
+--- Total inventory value: ₹443800 ---
+
+--- Grouped by category ---
+Electronics: Laptop, Headphones
+Fashion: T-Shirt, Jeans
+Stationery: Notebook, Pen Pack
+Home: Blender

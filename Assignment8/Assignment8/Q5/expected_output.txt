@@ -1,0 +1,7 @@
+Rider : Neha (rating 4.8)
+Driver: Ravi (rating 4.9) | Maruti Swift, UP85 AB 1234
+
+Mathura -> Vrindavan: Fare = ₹194
+Mathura -> Agra: Could not calculate fare. Distance cannot be negative.
+Mathura -> Delhi: Could not calculate fare. Distance is required and must be a number.
+Mathura -> Jaipur: Could not calculate fare. Distance is required and must be a number.

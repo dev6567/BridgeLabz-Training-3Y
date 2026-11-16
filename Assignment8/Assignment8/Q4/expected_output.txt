@@ -1,0 +1,7 @@
+Amit (HR) is doing assigned tasks.
+Sara (Engineering) is managing a team of 8 people.
+Kiran (Engineering) is writing code.
+
+manager instanceof Manager : true
+manager instanceof Employee: true
+Manager work() is its own   : true

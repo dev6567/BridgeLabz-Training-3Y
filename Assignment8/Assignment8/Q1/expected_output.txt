@@ -1,0 +1,3 @@
+Aarav: Marks = [85, 90, 78, 92, 88] | Average = 86.60 | Grade = A
+Priya: Marks = [65, 70, 58, 72, 60] | Average = 65.00 | Grade = B
+Rohan: Marks = [30, 35, 28, 40, 25] | Average = 31.60 | Grade = F

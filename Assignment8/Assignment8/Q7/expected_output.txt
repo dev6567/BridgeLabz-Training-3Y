@@ -1,0 +1,16 @@
+Account of Aarav, opening balance: ₹1000
+
+--- Valid deposits ---
+Deposit ₹500 -> OK. Balance: ₹1500
+Deposit ₹250 -> OK. Balance: ₹1750
+
+--- Withdrawals ---
+Withdraw ₹300 -> OK. Balance: ₹1450
+Withdraw ₹5000 -> FAILED. Insufficient balance. Available: ₹1450, requested: ₹5000
+Withdraw -100 -> FAILED. Withdrawal amount must be a positive number.
+Deposit 'abc' -> FAILED. Deposit amount must be a positive number.
+
+Final balance: ₹1450
+account.balance  : undefined
+account.#balance : not accessible (private)
+Object.keys     : [ 'owner' ]

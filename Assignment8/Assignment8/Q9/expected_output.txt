@@ -1,0 +1,14 @@
+--- Active users (steps > 7000) ---
+User A: 8000 steps
+User B: 12000 steps
+
+--- Average calories ---
+333.33 calories
+
+--- User summary ---
+User A walked 8000 steps and burned 300 calories.
+User B walked 12000 steps and burned 500 calories.
+User C walked 4000 steps and burned 200 calories.
+
+--- Empty dataset test ---
+Error: Dataset is empty. Cannot run analytics.

@@ -1,0 +1,14 @@
+Ticket -> Movie: Inception | Seat: A12 | Price: ₹300
+Ticket -> Movie: Interstellar | Seat: B07 | Price: ₹350
+Ticket -> Movie: Avatar | Seat: C03 | Price: ₹280
+
+Inception total amount: ₹330
+Interstellar total amount: ₹390
+
+--- Prototype chain proof ---
+ticket1 has own printTicket?                  : false
+OnlineTicket.prototype has own printTicket?   : false
+MovieTicket.prototype has own printTicket?    : true
+Chain: ticket1 -> OnlineTicket.prototype -> MovieTicket.prototype -> Object.prototype -> null
+1: true
+2: true

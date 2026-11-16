@@ -1,0 +1,10 @@
+Laptop: ₹50000 -> ₹45000 after 10% off
+Headphones: ₹2000 -> ₹1500 after 25% off
+Shoes: ₹3500 -> ₹2100 after 40% off
+
+--- Using only the method (abstraction) ---
+Laptop at 5% off costs ₹47500.00
+Headphones at 50% off costs ₹1000.00
+Shoes at 15% off costs ₹2975.00
+Original price is unchanged: 50000
+RangeError: Discount must be a number between 0 and 100

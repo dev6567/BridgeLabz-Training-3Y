@@ -1,0 +1,10 @@
+Order: Burger, Fries, Coke
+Prices: [120, 90, 60]  ->  Total bill: ₹270
+
+Order: pizza, PASTA
+Prices: [250, 180]  ->  Total bill: ₹430
+
+Could not place order: Invalid item: "Noodles" is not on the menu.
+
+Could not place order: Order is empty. Please select at least one item.
+
