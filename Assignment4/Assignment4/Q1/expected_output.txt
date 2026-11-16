@@ -1,0 +1,16 @@
+===== All Products =====
+#1 | Laptop | Category: Electronics | Price: ₹55000.00
+#2 | Headphones | Category: Electronics | Price: ₹1500.00
+#3 | T-Shirt | Category: Fashion | Price: ₹799.00
+#4 | Smartphone | Category: Electronics | Price: ₹18000.00
+#5 | Notebook | Category: Stationery | Price: ₹120.00
+#6 | Running Shoes | Category: Fashion | Price: ₹2999.00
+
+===== Products with price > 1000 =====
+#1 | Laptop | Category: Electronics | Price: ₹55000.00
+#2 | Headphones | Category: Electronics | Price: ₹1500.00
+#4 | Smartphone | Category: Electronics | Price: ₹18000.00
+#6 | Running Shoes | Category: Fashion | Price: ₹2999.00
+
+===== Applying 10% discount to Headphones =====
+#2 | Headphones | Category: Electronics | Price: ₹1350.00

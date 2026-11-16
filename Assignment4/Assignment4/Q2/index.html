@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Registration</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f4f8; display: flex; justify-content: center; padding: 30px; }
+    form { background: #fff; padding: 24px; border-radius: 8px; width: 340px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    h2 { margin-top: 0; }
+    .field { margin-bottom: 14px; }
+    label { display: block; font-weight: bold; margin-bottom: 4px; }
+    input { width: 100%; padding: 8px; border: 2px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+    input.valid { border-color: green; }
+    input.invalid { border-color: red; }
+    .error { color: red; font-size: 13px; min-height: 16px; margin-top: 3px; }
+    button { width: 100%; padding: 10px; background: #2d6cdf; color: #fff; border: 0; border-radius: 4px; cursor: pointer; }
+    #success { color: green; font-weight: bold; margin-top: 12px; text-align: center; }
+  </style>
+</head>
+<body>
+  <form id="student-form" novalidate>
+    <h2>Student Registration</h2>
+    <div class="field"><label for="name">Name</label><input id="name" type="text"><div class="error" id="name-error"></div></div>
+    <div class="field"><label for="email">Email</label><input id="email" type="text"><div class="error" id="email-error"></div></div>
+    <div class="field"><label for="phone">Phone</label><input id="phone" type="text"><div class="error" id="phone-error"></div></div>
+    <div class="field"><label for="password">Password</label><input id="password" type="password"><div class="error" id="password-error"></div></div>
+    <button type="submit">Register</button>
+    <div id="success"></div>
+  </form>
+  <script src="q2_student_validator.js"></script>
+</body>
+</html>

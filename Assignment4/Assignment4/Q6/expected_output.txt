@@ -1,0 +1,13 @@
+===== Annual Salaries =====
+101 | Amit (Tech) | Annual: ₹720000.00
+102 | Sara (HR) | Annual: ₹480000.00
+103 | Kiran (Finance) | Annual: ₹660000.00
+104 | Neha (Tech) | Annual: ₹900000.00
+105 | Rahul (Support) | Annual: ₹360000.00
+
+Total annual payout: ₹3120000.00
+
+===== After giving Sara a 10% bonus =====
+Sara's new monthly salary: ₹44000.00
+Sara's new annual salary : ₹528000.00
+New total annual payout  : ₹3168000.00

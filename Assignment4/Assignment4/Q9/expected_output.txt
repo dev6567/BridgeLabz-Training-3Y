@@ -1,0 +1,28 @@
+===== Cart =====
+Keyboard x1 @ ₹1200 = ₹1200
+Mouse x2 @ ₹500 = ₹1000
+USB Cable x3 @ ₹150 = ₹450
+Total          : ₹2650.00
+Discount       : 0%
+Final total    : ₹2650.00
+
+--- Coupon "SAVE20" ---
+Valid coupon! 20% discount applied.
+Final total: ₹2120.00
+
+--- Coupon "DISC10" ---
+Valid coupon! 10% discount applied.
+Final total: ₹2385.00
+
+--- Coupon "save15" ---
+Valid coupon! 15% discount applied.
+Final total: ₹2252.50
+
+--- Coupon "FREE50" ---
+Invalid coupon format. Use SAVE20 or DISC10 style codes.
+
+--- Coupon "SAVE5" ---
+Invalid coupon format. Use SAVE20 or DISC10 style codes.
+
+--- Coupon "SAVE200" ---
+Invalid coupon format. Use SAVE20 or DISC10 style codes.

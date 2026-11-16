@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dynamic Object Updater</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f4f8; display: flex; justify-content: center; padding: 30px; }
+    .card { background: #fff; padding: 24px; border-radius: 8px; width: 360px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    .field { margin-bottom: 14px; }
+    label { display: block; font-weight: bold; margin-bottom: 4px; }
+    input { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; }
+    button { width: 100%; padding: 10px; background: #2d6cdf; color: #fff; border: 0; border-radius: 4px; cursor: pointer; }
+    pre { background: #eef1f6; padding: 10px; border-radius: 4px; }
+    #status { color: green; font-size: 13px; margin-top: 8px; min-height: 16px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Edit User</h2>
+    <form id="user-form">
+      <div class="field"><label for="name">Name</label><input id="name" data-key="name" type="text"></div>
+      <div class="field"><label for="email">Email</label><input id="email" data-key="email" type="text"></div>
+      <div class="field"><label for="age">Age</label><input id="age" data-key="age" type="number"></div>
+      <button type="submit">Save</button>
+      <div id="status"></div>
+    </form>
+    <h3>Current user object</h3>
+    <pre id="object-view"></pre>
+    <h3>Details</h3>
+    <ul id="details"></ul>
+  </div>
+  <script src="q8_object_updater.js"></script>
+</body>
+</html>
