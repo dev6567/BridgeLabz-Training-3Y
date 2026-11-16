@@ -1,0 +1,9 @@
+Simulated API failure: false
+Callback version received 3 bugs
+┌─────────┬────┬─────────────────┐
+│ (index) │ id │ bug             │
+├─────────┼────┼─────────────────┤
+│ 0       │ 1  │ 'UI glitch'     │
+│ 1       │ 2  │ 'API timeout'   │
+│ 2       │ 3  │ 'Login failure' │
+└─────────┴────┴─────────────────┘

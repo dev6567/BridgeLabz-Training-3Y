@@ -1,0 +1,5 @@
+Starting the coffee process...
+Step 1: Water boiled
+Step 2: Coffee brewed
+Step 3: Coffee poured into cup
+Coffee ready for the team!

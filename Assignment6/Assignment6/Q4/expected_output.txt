@@ -1,0 +1,4 @@
+Server A responded after 2s
+Fastest response: Server A
+Server B responded after 3s
+Deployment completed for all servers: Server A, Server B

@@ -1,0 +1,5 @@
+Start
+Synchronous log
+End
+Promise.then callback (microtask)
+setTimeout callback (macrotask)

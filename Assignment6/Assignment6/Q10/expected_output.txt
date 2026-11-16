@@ -1,0 +1,7 @@
+Start Pipeline
+(This line runs immediately: runPipeline() paused at its first await)
+Step 1: Order taken
+Step 2: Food prepared
+Step 3: Package ready
+Step 4: Out for delivery
+Delivery completed!
