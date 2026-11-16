@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Theme Switcher</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 30px; transition: background .3s, color .3s; }
+    .theme-light { background: #ffffff; color: #222222; }
+    .theme-dark { background: #1e1e1e; color: #f0f0f0; }
+    .theme-blue { background: #d6e8ff; color: #0b2a55; }
+    button { padding: 8px 16px; margin-right: 8px; border: 2px solid transparent; border-radius: 4px; cursor: pointer; }
+    button[aria-pressed="true"] { border-color: #2d6cdf; font-weight: bold; }
+    .box { margin-top: 20px; padding: 16px; border: 1px solid currentColor; border-radius: 6px; }
+  </style>
+</head>
+<body>
+  <h2>Theme Switcher</h2>
+  <button type="button" data-theme-choice="light">Light</button>
+  <button type="button" data-theme-choice="dark">Dark</button>
+  <button type="button" data-theme-choice="blue">Blue</button>
+
+  <div class="box">
+    <p>Current theme: <strong id="current-theme"></strong></p>
+    <p>Check the &lt;body&gt; tag in DevTools: it has a class and a data-theme attribute.</p>
+  </div>
+  <script src="q4_theme_switcher.js"></script>
+</body>
+</html>

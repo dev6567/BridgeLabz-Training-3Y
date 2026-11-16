@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Character Counter</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f4f8; display: flex; justify-content: center; padding: 30px; }
+    .card { background: #fff; padding: 24px; border-radius: 8px; width: 400px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    textarea { width: 100%; height: 120px; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; }
+    #counter { margin: 8px 0 12px; font-weight: bold; color: green; }
+    #counter.warning { color: #d4a000; }      /* yellow-ish, readable on white */
+    #counter.danger { color: red; }
+    button { padding: 8px 16px; border: 0; border-radius: 4px; background: #2d6cdf; color: #fff; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Live Character Counter</h2>
+    <textarea id="message" placeholder="Type your message (max 100 characters)"></textarea>
+    <div id="counter">100 characters remaining</div>
+    <button id="reset-btn" type="button">Reset</button>
+  </div>
+  <script src="q2_char_counter.js"></script>
+</body>
+</html>

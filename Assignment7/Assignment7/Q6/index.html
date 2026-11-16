@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Table Filter</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f4f8; padding: 30px; }
+    .card { background: #fff; padding: 24px; border-radius: 8px; max-width: 520px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    #search { width: 100%; padding: 8px; box-sizing: border-box; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 12px; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 8px; border-bottom: 1px solid #eee; text-align: left; }
+    th { background: #2d6cdf; color: #fff; }
+    tr.hidden { display: none; }
+    #no-results { display: none; color: red; font-weight: bold; margin-top: 12px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Students</h2>
+    <input id="search" type="text" placeholder="Search by name, branch or CGPA">
+    <table>
+      <thead><tr><th>Name</th><th>Branch</th><th>CGPA</th></tr></thead>
+      <tbody id="student-body">
+        <tr><td>Aarav Sharma</td><td>Computer Science</td><td>8.7</td></tr>
+        <tr><td>Priya Singh</td><td>Electronics</td><td>9.1</td></tr>
+        <tr><td>Rohan Mehta</td><td>Mechanical</td><td>7.8</td></tr>
+        <tr><td>Sneha Gupta</td><td>Computer Science</td><td>9.4</td></tr>
+        <tr><td>Kabir Khan</td><td>Civil</td><td>8.2</td></tr>
+        <tr><td>Ananya Rao</td><td>Electronics</td><td>8.9</td></tr>
+        <tr><td>Vikram Joshi</td><td>Mechanical</td><td>7.5</td></tr>
+        <tr><td>Meera Nair</td><td>Information Technology</td><td>9.0</td></tr>
+      </tbody>
+    </table>
+    <div id="no-results">No results found</div>
+  </div>
+  <script src="q6_table_filter.js"></script>
+</body>
+</html>

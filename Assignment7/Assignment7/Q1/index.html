@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product List Manager</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f4f8; display: flex; justify-content: center; padding: 30px; }
+    .card { background: #fff; padding: 24px; border-radius: 8px; width: 420px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    .add-row { display: flex; gap: 8px; margin-bottom: 16px; }
+    .add-row input { flex: 1; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+    button { padding: 6px 12px; border: 0; border-radius: 4px; cursor: pointer; background: #2d6cdf; color: #fff; }
+    button.delete-btn { background: #d9534f; }
+    ul { list-style: none; padding: 0; margin: 0; }
+    .product-item { display: flex; align-items: center; gap: 8px; padding: 8px; border-bottom: 1px solid #eee; }
+    .product-name { flex: 1; }
+    .edit-input { flex: 1; padding: 6px; border: 2px solid #2d6cdf; border-radius: 4px; }
+    .hint { font-size: 12px; color: #666; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Product List</h2>
+    <div class="add-row">
+      <input id="product-input" type="text" placeholder="Enter product name">
+      <button id="add-btn" type="button">Add</button>
+    </div>
+    <ul id="product-list"></ul>
+    <p class="hint">Click Edit to change a name. Click outside the item to auto-save.</p>
+  </div>
+  <script src="q1_product_list.js"></script>
+</body>
+</html>

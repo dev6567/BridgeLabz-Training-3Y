@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mouse Logger</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f4f8; padding: 30px; }
+    #box { position: relative; width: 400px; height: 400px; background: #fff; border: 2px solid #2d6cdf; overflow: hidden; cursor: crosshair; }
+    .dot { position: absolute; width: 12px; height: 12px; background: red; border-radius: 50%; transform: translate(-50%, -50%); pointer-events: none; }
+    #info { margin: 12px 0; font-size: 16px; }
+    button { padding: 6px 12px; border: 0; border-radius: 4px; background: #2d6cdf; color: #fff; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h2>Mouse Path &amp; Coordinates Logger</h2>
+  <div id="info">Move the mouse inside the box. Double-click to drop a red dot.</div>
+  <div id="box"></div>
+  <p>Dots dropped: <span id="dot-count">0</span> <button id="clear-btn" type="button">Clear dots</button></p>
+  <script src="q7_mouse_logger.js"></script>
+</body>
+</html>

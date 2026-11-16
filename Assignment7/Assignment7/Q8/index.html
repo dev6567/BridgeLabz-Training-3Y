@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Custom Dropdown</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f4f8; padding: 30px; }
+    .dropdown { position: relative; width: 220px; }
+    #dropdown-btn { width: 100%; padding: 10px; text-align: left; background: #fff; border: 1px solid #ccc; border-radius: 4px; cursor: pointer; }
+    #dropdown-btn::after { content: "▾"; float: right; }
+    #dropdown-list { position: absolute; top: 100%; left: 0; right: 0; margin: 2px 0 0; padding: 0; list-style: none; background: #fff; border: 1px solid #ccc; border-radius: 4px; display: none; box-shadow: 0 4px 10px rgba(0,0,0,.1); }
+    #dropdown-list.open { display: block; }
+    #dropdown-list li { padding: 10px; cursor: pointer; }
+    #dropdown-list li:hover { background: #eef3ff; }
+  </style>
+</head>
+<body>
+  <h2>Custom Dropdown</h2>
+  <div class="dropdown" id="dropdown">
+    <button type="button" id="dropdown-btn" aria-expanded="false">Select a language</button>
+    <ul id="dropdown-list">
+      <li data-value="javascript">JavaScript</li>
+      <li data-value="python">Python</li>
+      <li data-value="java">Java</li>
+      <li data-value="cpp">C++</li>
+      <li data-value="go">Go</li>
+    </ul>
+  </div>
+  <p>Selected value: <strong id="selected-value">none</strong></p>
+  <script src="q8_custom_dropdown.js"></script>
+</body>
+</html>

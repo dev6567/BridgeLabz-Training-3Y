@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Multi-Step Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f2f4f8; display: flex; justify-content: center; padding: 30px; }
+    .card { background: #fff; padding: 24px; border-radius: 8px; width: 360px; box-shadow: 0 2px 8px rgba(0,0,0,.1); }
+    .step { display: none; }
+    .step.active { display: block; }
+    label { display: block; font-weight: bold; margin-bottom: 6px; }
+    input { width: 100%; padding: 8px; box-sizing: border-box; border: 2px solid #ccc; border-radius: 4px; }
+    input.invalid { border-color: red; }
+    .error { color: red; font-size: 13px; min-height: 18px; margin-top: 4px; }
+    .buttons { display: flex; justify-content: space-between; margin-top: 12px; }
+    button { padding: 8px 16px; border: 0; border-radius: 4px; background: #2d6cdf; color: #fff; cursor: pointer; }
+    button.secondary { background: #888; }
+    #back-btn.hidden { visibility: hidden; }
+    #progress { color: #555; margin-bottom: 12px; }
+    #summary { display: none; }
+    #summary li { margin: 6px 0; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>Sign Up</h2>
+    <div id="progress">Step 1 of 3</div>
+
+    <form id="multi-form" novalidate>
+      <div class="step active" data-step="0">
+        <label for="name">Name</label>
+        <input id="name" type="text" autocomplete="off">
+        <div class="error" id="name-error"></div>
+      </div>
+      <div class="step" data-step="1">
+        <label for="email">Email</label>
+        <input id="email" type="text" autocomplete="off">
+        <div class="error" id="email-error"></div>
+      </div>
+      <div class="step" data-step="2">
+        <label for="password">Password</label>
+        <input id="password" type="password">
+        <div class="error" id="password-error"></div>
+      </div>
+      <div class="buttons">
+        <button type="button" id="back-btn" class="secondary hidden">Back</button>
+        <button type="submit" id="next-btn">Next</button>
+      </div>
+    </form>
+
+    <div id="summary">
+      <h3>Summary</h3>
+      <ul id="summary-list"></ul>
+      <button type="button" id="restart-btn">Start Over</button>
+    </div>
+  </div>
+  <script src="q3_multi_step_form.js"></script>
+</body>
+</html>
