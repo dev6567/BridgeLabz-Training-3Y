@@ -1,0 +1,18 @@
+Pyramid with limit = 5
+--- let version ---
+*
+* *
+* * *
+* * * *
+* * * * *
+After loop (let): typeof row = undefined
+--- var version ---
+*
+* *
+* * *
+* * * *
+* * * * *
+After loop (var): row = 6, col = 6
+var closures: [ 4, 4, 4 ]
+let closures: [ 1, 2, 3 ]
+ReferenceError: k is not defined

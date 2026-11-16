@@ -1,0 +1,24 @@
+===== Conversion Report =====
+[VALID  ] #0 raw="25" | Number=25 | Boolean=true | String="25"
+[SKIPPED] #1 raw="true" | Number=NaN | Boolean=true | String="true"
+[SKIPPED] #2 raw="false" | Number=NaN | Boolean=true | String="false"
+[SKIPPED] #3 raw="NaN" | Number=NaN | Boolean=true | String="NaN"
+[SKIPPED] #4 raw=" " | Number=0 | Boolean=true | String=" "
+[SKIPPED] #5 raw="100px" | Number=NaN | Boolean=true | String="100px"
+[VALID  ] #6 raw="3.14" | Number=3.14 | Boolean=true | String="3.14"
+[SKIPPED] #7 raw=null | Number=0 | Boolean=false | String="null"
+[SKIPPED] #8 raw=undefined | Number=NaN | Boolean=false | String="undefined"
+
+===== Valid Numeric Data =====
+[ 25, 3.14 ]
+Count: 2, Sum: 28.14
+
+===== Invalid Entries (logged separately) =====
+#1 "true" -> not numeric (Number() gives NaN)
+#2 "false" -> not numeric (Number() gives NaN)
+#3 "NaN" -> not numeric (Number() gives NaN)
+#4 " " -> blank string (Number() would wrongly give 0)
+#5 "100px" -> not numeric (Number() gives NaN)
+#7 null -> missing value (null/undefined)
+#8 undefined -> missing value (null/undefined)
+Total invalid: 7 of 9

@@ -1,0 +1,15 @@
+--- 1. Original code ---
+undefined
+undefined
+
+--- 2. Separate memory contexts ---
+inner count: 10
+outer count after inner(): 5
+
+--- 3a. Arrow with its own var count ---
+undefined
+undefined
+--- 3b. Arrow using the outer count (closure) ---
+inner sees closure count: 5
+--- 3c. Calling an arrow before its definition ---
+ReferenceError: Cannot access 'inner' before initialization

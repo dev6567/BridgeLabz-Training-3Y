@@ -1,0 +1,17 @@
+===== Valid Transactions =====
+[ { id: 1, amount: 2000 } ]
+
+===== Invalid Transactions =====
+[NegativeAmountError] Transaction 2 has negative amount -500
+[MissingFieldError] Transaction is missing id or amount: {"id":3}
+[NullTransactionError] Transaction entry is null
+
+===== Final Report =====
+Total     : 4
+Successful: 1
+Failed    : 3
+Errors by type: {
+  NegativeAmountError: 1,
+  MissingFieldError: 1,
+  NullTransactionError: 1
+}

@@ -1,0 +1,26 @@
+--- 1. Original code ---
+undefined
+Game started
+ready
+
+--- 2. Hoisting memory states ---
+┌─────────┬─────────────┬────────────────────────┬──────────────────────────────────────────────────────────────┐
+│ (index) │ element     │ kind                   │ stateBeforeLine                                              │
+├─────────┼─────────────┼────────────────────────┼──────────────────────────────────────────────────────────────┤
+│ 0       │ 'score'     │ 'var'                  │ 'undefined (declared + initialised to undefined)'            │
+│ 1       │ 'announce'  │ 'function declaration' │ 'fully available (whole function stored)'                    │
+│ 2       │ 'status'    │ 'let'                  │ 'hoisted but in Temporal Dead Zone (ReferenceError if read)' │
+│ 3       │ 'startGame' │ 'function declaration' │ 'fully available (whole function stored)'                    │
+└─────────┴─────────────┴────────────────────────┴──────────────────────────────────────────────────────────────┘
+ReferenceError: Cannot access 'statusTdz' before initialization
+
+--- 3. Fixed code ---
+50
+Game started
+ready
+
+--- 4. Arrow functions ---
+TypeError: announceVar is not a function
+ReferenceError: Cannot access 'announceConst' before initialization
+Game started (var arrow)
+Game started (const arrow)

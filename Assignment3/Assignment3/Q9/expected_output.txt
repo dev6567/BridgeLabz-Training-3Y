@@ -1,0 +1,14 @@
+===== Clean Data =====
+[
+  { user: 'Alex', age: 25 },
+  { user: 'Mina', age: 22 },
+  { user: 'Tom', age: 16 }
+]
+
+===== Error Log =====
+Line 2: Validation error - Missing key(s): user, age
+Line 3: Invalid JSON - Expected property name or '}' in JSON at position 1 (line 1 column 2)
+
+===== Bonus: Age Filter =====
+Adults (18+): [ { user: 'Alex', age: 25 }, { user: 'Mina', age: 22 } ]
+Removed (under 18): [ { user: 'Tom', age: 16 } ]

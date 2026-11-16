@@ -1,0 +1,5 @@
+Amit | Salary: 45000.00 | Years: 5 | Bonus: 4500.00 | Total: 49500.00
+Sara | Salary: 38000.00 | Years: 2 | Bonus: 1900.00 | Total: 39900.00
+Kiran | Salary: 52000.00 | Years: 7 | Bonus: 5200.00 | Total: 57200.00
+Error -> TypeError: Ravi: salary/years cannot be converted to numbers
+Error -> Error: Neha is missing the salary or years property

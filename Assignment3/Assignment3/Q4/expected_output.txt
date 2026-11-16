@@ -1,0 +1,8 @@
+--- Buggy version ---
+ReferenceError: greeting is not defined
+Sloppy mode result: Welcome (and now globalThis.greeting = Welcome)
+--- Fixed version ---
+Welcome
+typeof greeting outside function: undefined
+--- Debug version ---
+Welcome

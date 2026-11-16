@@ -1,0 +1,10 @@
+--- Without strict mode ---
+sloppy demo(5, 10) -> OK {"a":10,"deleted":true}
+
+--- With strict mode ---
+strict: function demo(a, a) -> SyntaxError: Duplicate parameter name not allowed in this context
+strict: total = 10 (undeclared) -> ReferenceError: total is not defined
+strict: delete total -> SyntaxError: Delete of an unqualified identifier in strict mode.
+
+--- Correct ES6 version ---
+{ total: 15, recordAfterDelete: {} }
