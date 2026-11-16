@@ -1,0 +1,7 @@
+[ 2, 4, 6 ]
+[ '0:a', '1:b' ]
+myMap  : [ 11, 21, 31 ]
+map    : [ 11, 21, 31 ]
+Same result? true
+Original array unchanged: [ 10, 20, 30 ]
+TypeError: not a function is not a function

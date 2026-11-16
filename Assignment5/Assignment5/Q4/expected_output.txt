@@ -1,0 +1,6 @@
+Car: Toyota Fortuner
+Car: Honda City
+car1.getDetails === car2.getDetails : true
+car1 has own getDetails?            : false
+Car.prototype has getDetails?       : true
+car1.__proto__ === Car.prototype    : true

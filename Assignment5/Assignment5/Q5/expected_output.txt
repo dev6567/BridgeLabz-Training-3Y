@@ -1,0 +1,11 @@
+Name: Aarav
+Branch: Computer Science
+
+student instanceof Student: true
+student instanceof Person : true
+Chain: student -> Student.prototype -> Person.prototype -> Object.prototype -> null
+1: true
+2: true
+3: true
+4: true
+printName is own property of student? false

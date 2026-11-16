@@ -1,0 +1,12 @@
+Prototype version: Name: Aarav | Branch: Computer Science
+Class version    : Name: Aarav | Branch: Computer Science
+
+Same output? true
+
+--- Prototype chain checks ---
+Proto: instanceof Student/Person: true true
+Class: instanceof Student/Person: true true
+Proto: Student.prototype -> Person.prototype: true
+Class: Student.prototype -> Person.prototype: true
+Methods shared (not copied)? true true
+typeof class: function (a class is just a function, so classes are syntax on top of prototypes)

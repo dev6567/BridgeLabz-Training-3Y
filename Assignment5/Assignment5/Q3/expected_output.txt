@@ -1,0 +1,3 @@
+Arrow function: this.name = undefined
+Normal function: this.name = Aarav
+Shorthand method: this.name = Aarav

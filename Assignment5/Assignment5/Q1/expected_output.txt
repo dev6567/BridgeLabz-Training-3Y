@@ -1,0 +1,4 @@
+Step 1: calling greetUser
+Hello Aarav
+Welcome to the course!
+Step 4: greetUser finished
